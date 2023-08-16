@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "type": "extension",
+    "name": "QQNT Eruda",
+    "slug": "QQNTEruda",
+    "description": "使用Eruda进行前端调试",
+    "version": "0.1.0",
+    "author": {
+        "name": "xjzh123",
+        "link": "https://github.com/xjzh123"
+    },
+    "repository": {
+        "repo": "xjzh123/LiteLoaderQQNT-Eruda",
+        "branch": "main"
+    },
+    "platform": ["win32", "darwin", "linux"],
+    "injects": {
+        "main": "./main.js",
+        "renderer": "./renderer.js"
+    }
+}
